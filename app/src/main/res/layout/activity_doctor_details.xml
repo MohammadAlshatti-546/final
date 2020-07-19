@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".whatis_details">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/doc_detail_img"
+                android:layout_width="390dp"
+                android:layout_height="350dp"
+                android:scaleType="fitXY"
+                tools:srcCompat="@tools:sample/avatars"
+                android:layout_marginTop="80dp"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/doctorname"
+                android:layout_width="190dp"
+                android:layout_height="75dp"
+                android:layout_alignTop="@id/doc_detail_img"
+                android:layout_marginStart="205dp"
+                android:autoSizeTextType="uniform"
+                android:layout_marginTop="360dp"
+                android:fontFamily="@font/koufiya"
+                android:text="د.حمود عزوز"
+                android:textAlignment="textEnd"
+                android:textColor="#000000"
+                android:textSize="38sp" />
+
+            <TextView
+                android:id="@+id/patient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/doctorname"
+                android:layout_marginStart="330dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/amman"
+                android:text="المرضى"
+                android:textAlignment="textEnd"
+                android:textColor="#928888"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/experince"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/doctorname"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/amman"
+                android:text="الخبرة"
+                android:textAlignment="textEnd"
+                android:textColor="#928888"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/doctorname"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/amman"
+                android:text="التقييم"
+                android:textAlignment="textEnd"
+                android:textColor="#928888"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/patient_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/patient"
+                android:layout_marginStart="335dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/droidserifbolditalic"
+                android:text="299"
+                android:textAlignment="textEnd"
+                android:textColor="@color/selected2"
+                android:textSize="23sp" />
+            <TextView
+                android:id="@+id/experince_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/experince"
+                android:layout_marginStart="187dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/droidserifbolditalic"
+                android:text="2 yr"
+                android:textAlignment="textEnd"
+                android:textColor="@color/selected2"
+                android:textSize="23sp" />
+            <TextView
+                android:id="@+id/rating_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/rating"
+                android:layout_marginStart="46dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/droidserifbolditalic"
+                android:text="4.0"
+                android:textAlignment="textEnd"
+                android:textColor="@color/selected2"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="193dp"
+                android:layout_height="76dp"
+                android:layout_alignTop="@id/patient_num"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="100dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/droidserifbold"
+                android:paddingRight="20dp"
+                android:text=" السيرة الذاتية :"
+                android:textAlignment="textStart"
+                android:textColor="@color/selected2"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/info_para"
+                android:layout_width="392dp"
+                android:layout_height="240dp"
+                android:layout_alignTop="@id/info"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="129dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/massir_ballpoint"
+                android:gravity="right"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:textColor="#B93A3A3A"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/communication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/info_para"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="290dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/droidserifbold"
+                android:paddingRight="20dp"
+                android:text="للتواصل :"
+                android:textAlignment="textStart"
+                android:textColor="@color/selected2"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/xd"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/communication"
+                android:layout_marginStart="360dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/droidserifbold"
+                android:text="-"
+                android:gravity="center"
+                android:textColor="@color/selected2"
+                android:textSize="32sp" />
+            <TextView
+                android:id="@+id/xd2"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/xd"
+                android:layout_marginStart="360dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/droidserifbold"
+                android:text="-"
+                android:gravity="center"
+                android:textColor="@color/selected2"
+                android:textSize="32sp" />
+            <TextView
+                android:id="@+id/phone_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:autoLink="all"
+                android:layout_alignTop="@id/communication"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/droidserifbold"
+                android:text="+965 60951814 "
+                android:textColorLink="#AE3535"
+                android:gravity="start"
+                android:textColor="#535353"
+                android:textSize="32sp" />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_alignTop="@id/xd"
+                android:autoSizeTextType="uniform"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="100dp"
+                android:textColorLink="#AE3535"
+                android:autoLink="all"
+                android:clickable="true"
+                android:fontFamily="@font/droidserifbold"
+                android:text="furyzlm.eap@gmail.com"
+                android:gravity="start"
+                android:textColor="#AE3535"
+                android:textSize="32sp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_treatDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+
+
+</RelativeLayout>

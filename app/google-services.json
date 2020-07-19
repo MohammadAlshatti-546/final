@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1020827394587",
+    "firebase_url": "https://depression-519ea.firebaseio.com",
+    "project_id": "depression-519ea",
+    "storage_bucket": "depression-519ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020827394587:android:e19f2ef44635e3624dcebe",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020827394587-g4j4lm75h1im4lmgppimt901aikor8en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq-Qp5UpHfRPN87kPDe_DmbyrkMNllkRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020827394587-g4j4lm75h1im4lmgppimt901aikor8en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
